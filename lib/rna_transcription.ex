@@ -16,7 +16,7 @@ defmodule RnaTranscription do
     |> List.flatten()
   end
 
-  # @spec rna_char(dna_char :: binary) :: binary()
+  @spec rna_char(dna_char :: char) :: char
   defp rna_char(dna_char) do
     case dna_char do
       ?G -> ?C
