@@ -22,6 +22,6 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 rna_transcription-*.tar
 
-# Stuff added by Exercism
-/.elixir_ls/build/
-/.elixir_ls/dialyzer_tmp/
+# Linter stuff
+/.elixir_ls/
+.elixir_ls/dialyzer_manifest_22.1.1_elixir-1.9.1_test
