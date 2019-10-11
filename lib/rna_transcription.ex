@@ -13,7 +13,6 @@ defmodule RnaTranscription do
     |> Enum.map(fn dna_char ->
       rna_char(dna_char)
     end)
-    |> List.flatten()
   end
 
   @spec rna_char(dna_char :: char) :: char
